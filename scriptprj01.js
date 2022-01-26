@@ -71,8 +71,8 @@ if (i > 4){
 }else if (i > 2){
     console.log("Você chega perto de conseguir alcançar seu objetivo, mas acaba falhando por pouco.")
 }else if (i > 1){
-    console.log("Você falha miseravelmente.") 
+    console.log("Você falha, mas ainda consegue fugir da situação") 
 }else{
-    console.log("Você falha, mas ainda consegue fugir da situação")
+    console.log("Você falha miseravelmente.")
 }
 
