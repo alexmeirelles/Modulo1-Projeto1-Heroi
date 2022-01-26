@@ -33,35 +33,25 @@ console.log("historia do personagem")
 
 var i = 0;
 var a = prompt("Você conseguiu encontrar a Espada Mágica da Chama da Estrela do Inverno?")
-var b = a.toLowerCase()
-var b = b.trim()
-if (b === "sim"){
+if (a.trim().toLowerCase() === "sim"){
     i++;
 } 
 var a = prompt("Você conseguiu encontrar a Espada Mágica da Chama da Estrela do Inverno?")
-var b = a.toLowerCase()
-var b = b.trim()
-if (b === "sim"){
+if (a.trim().toLowerCase() === "sim"){
     i++;
 } 
 var a = prompt("Você conseguiu encontrar a Espada Mágica da Chama da Estrela do Inverno?")
-var b = a.toLowerCase()
-var b = b.trim()
-if (b === "sim"){
+if (a.trim().toLowerCase() === "sim"){
     i++;
 } 
 var a = prompt("Você conseguiu encontrar a Espada Mágica da Chama da Estrela do Inverno?")
-var b = a.toLowerCase()
-var b = b.trim()
-if (b === "sim"){
+if (a.trim().toLowerCase() === "sim"){
     i++;
 } 
 var a = prompt("Você conseguiu encontrar a Espada Mágica da Chama da Estrela do Inverno?")
-var b = a.toLowerCase()
-var b = b.trim()
-if (b === "sim"){
+if (a.trim().toLowerCase() === "sim"){
     i++;
-}
+} 
 
 
 if (i > 4){
