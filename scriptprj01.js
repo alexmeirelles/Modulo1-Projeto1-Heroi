@@ -34,7 +34,6 @@ for (var i = 0; i < perguntas.length; i++) {
     }
 }
 
-
 if (sim > 4){
     console.log("Você triunfou de maneira inquestionável e seus feitos serão lembrados por muitas gerações. Sua graduação será com louvor e a próxima expedição será conduzida por você como líder. Uma festa lhe aguarda nas próximas horas no salão Oval de Eros.");
 }else if (sim > 3){
