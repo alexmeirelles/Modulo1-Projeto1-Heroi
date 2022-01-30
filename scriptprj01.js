@@ -45,3 +45,5 @@ if (sim > 4){
 }else {
     console.log("Desculpe. Infelizmente sua Caminhada Dan provou apenas que você não é apto para esta posição em vida. É recomendado você sentar com os conselheo da Vila e buscar uma nova posição na sociedade.");
 }
+
+console.log("----------- FIM -----------");
