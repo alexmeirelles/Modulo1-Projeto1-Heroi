@@ -17,6 +17,7 @@ const perguntas = [
 const nome = prompt('Nosso Guerreiro reapareceu, me passe seu nome, por favor: ');
 console.log(`Bem-vindo ao final da sua jornada ${nome}, que grande Herói! \nSei que não foi fácil passar por tantos obstáculos e experiencias mas, um grande guerreiro como você sabe que é necessário desafios para evoluir e trazer mais beneficios para o mundo!\nVocê, um guerreiro nível 1, apenas com treinamentos da academia, saiu na busca de conseguir sua primeira graduação, de Guerreiro Dan. \nPara tal, escalou montanhas, batalhou dragões, passou por duelos com Magos, entrou em labirintos cheios de Orcs e visitou o calabouço do Rei Maligno Aristides. \nPois bem, agora, responda apenas usando sim ou não para cada evento que se sucedeu em sua caminhada Dan. Tais informações revelarão o seu futuro.`);
 
+console.log();
 console.log("-------------------");
 console.log("-------------------");
 console.log();
