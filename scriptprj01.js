@@ -3,19 +3,19 @@ var prompt = require('prompt-sync')();
 let sim = 0;
 const perguntas = [
     // Pergunta 1
-    "Seu primeiro passo foi de resistência. Você se deparou com o Pico da Morte, uma montanha antiga e a mais gelada do mundo, que só pessoas extremamente obstinadas,\n que tem um propósito firme de vida, conseguem ultrapassar e continuar em busca de um grande objetivo. Você conseguiu escalar o pico sem necessitar do tapete magico voador?",
+    "Seu primeiro passo foi de resistência. Você se deparou com o Pico da Morte, uma montanha antiga e a mais gelada do mundo, que só pessoas extremamente obstinadas, que tem um propósito firme de vida, conseguem ultrapassar e continuar em busca de um grande objetivo. Você conseguiu escalar o pico sem necessitar do tapete magico voador?",
     // Pergunta 2
-    "O Dragão Julius é um antigo Rei que era muito perverso e ganacioso. Sua ganancia o consumiu a um ponto quem que foi exilado e tranformado por uma irmandade de magos em um dragão.\n Julius não é um dragão fácil de abater, nem que seja por uns instantes para se conseguir a poção regenerativa. Você conseguiu transtorná-lo, nem que seja um pouco?",
+    "O Dragão Julius é um antigo Rei que era muito perverso e ganacioso. Sua ganancia o consumiu a um ponto quem que foi exilado e tranformado por uma irmandade de magos em um dragão. Julius não é um dragão fácil de abater, nem que seja por uns instantes para se conseguir a poção regenerativa. Você conseguiu transtorná-lo, nem que seja um pouco?",
     // Pergunta 3
-    "Independente do Pico gelado e do Dragão, seu caminho o levou a Torma. Torma um Mago nível 7 extremamente hábil pois mantem sua capacidade cognitiva comendo crânios de guerreiros novos deve ter lhe dado trabalho.\n Porém, eis você aqui! Fale-me você passou por Torma realmente?",
+    "Independente do Pico gelado e do Dragão, seu caminho o levou a Torma. Torma um Mago nível 7 extremamente hábil pois mantem sua capacidade cognitiva comendo crânios de guerreiros novos deve ter lhe dado trabalho. Porém, eis você aqui! Fale-me você passou por Torma realmente?",
     // Pergunta 4
     "O Labirinto de Syth é uma longa caminhada, com questionamento não de direçoes apenas mas questionamentos de suas decisões em vida. Após tantas reflexões, você conseguiu sair do Syth sem ser resgatados pelos anões do vilarejo vizinho?",
     // Pergunta 5
-    "Conhecer Aristidies foi o seu infortúnio final. Ele luta com 4 braços munidos de lâminas extremamentes cortantes. Sei que com ele não foi uma batalha fácil, mas diga-me:\n Naquela sacola ao canto deste cômodo, está a cabeça de Aristides?"
+    "Conhecer Aristidies foi o seu infortúnio final. Ele luta com 4 braços munidos de lâminas extremamentes cortantes. Sei que com ele não foi uma batalha fácil, mas diga-me: Naquela sacola ao canto deste cômodo, está a cabeça de Aristides?"
 ]
 
 const nome = prompt('Nosso Guerreiro reapareceu, me passe seu nome, por favor: ');
-console.log(`Bem-vindo ao final da sua jornada ${nome}, que grande Herói! \nSei que não foi fácil passar por tantos obstáculos e experiencias mas, um grande guerreiro como você sabe que é necessário desafios para evoluir e trazer mais beneficios para o mundo!\nVocê, um guerreiro nível 1, apenas com treinamentos da academia, saiu na busca de conseguir sua primeira graduação, de Guerreiro Dan. \nPara tal, escalou montanhas, batalhou dragões, passou por duelos com Magos, entrou em labirintos cheios de Orcs e visitou o calabouço do Rei Maligno Aristides. \nPois bem, agora, responda apenas usando sim ou não para cada evento que se sucedeu em sua caminhada Dan. Tais informações revelarão o seu futuro.`);
+console.log(`Bem-vindo ao final da sua jornada ${nome}, que grande Herói! Sei que não foi fácil passar por tantos obstáculos e experiencias mas, um grande guerreiro como você sabe que é necessário desafios para evoluir e trazer mais beneficios para o mundo!Você, um guerreiro nível 1, apenas com treinamentos da academia, saiu na busca de conseguir sua primeira graduação, de Guerreiro Dan. Para tal, escalou montanhas, batalhou dragões, passou por duelos com Magos, entrou em labirintos cheios de Orcs e visitou o calabouço do Rei Maligno Aristides. Pois bem, agora, responda apenas usando sim ou não para cada evento que se sucedeu em sua caminhada Dan. Tais informações revelarão o seu futuro.`);
 
 console.log();
 console.log("-------------------");
